@@ -1,0 +1,86 @@
+{
+  "basics": {
+    "name": "Dao Nguyen",
+    "label": "Web Developer",
+    "picture": "",
+    "email": "spaceman27@gmail.com",
+    "phone": "",
+    "website": "dao-portfolio.azure-websites.com",
+    "summary": "6 years of professional we development",
+    "location": {
+      "address": "Kirkland, WA",
+      "postalCode": "WA 98033",
+      "city": "Kirkland",
+      "countryCode": "US",
+      "region": "Washington"
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "Sau Thang",
+      "position": "Web Developer",
+      "website": "",
+      "startDate": "2009",
+      "endDate": "2011",
+      "summary": "Spearheaded educational software project from design to implementation.  Achievements: Primary architect for online English teaching program with pay-gate support; developed full-text search engine for bi-lingual sentence dictionary (English and Vietnamese) using Javascript, jQuery, HTML, CSS",
+      "highlights": []
+    },
+    {
+      "company": "i-Glocal",
+      "position": "Web Developer",
+      "website": "",
+      "startDate": "2011",
+      "endDate": "2013",
+      "summary": "Developed key HR & Accountant components  including membership registration, profile management, search functionality using WebAPI, HTML5, CSS3, AngularJS, EF, LINQ, and Bootstrap •\tInnovated web application design to enable employee time-tracking via WCF web service.  •\tDeveloped comprehensive end-user and administrator interface to generate reports, send newsletters with better suggestion for user’s job search. •\tOptimized system performance by periodic code reviews, and automated UI Testing using Selenium, Unit Testing and NUnit",
+      "highlights": []
+    },
+    {
+      "company": "Microsoft",
+      "position": "SDE",
+      "website": "",
+      "startDate": "07-2014",
+      "endDate": "12-2014",
+      "summary": "Built UI for Change Request System with AngularJS, Bootstrap, D3, Kendo UI, bundling and minification in combination with Grunt to get the deployment in automation. ",
+      "highlights": []
+    },
+    {
+      "company": "AOL",
+      "position": "UI Developer",
+      "website": "",
+      "startDate": "03-2015",
+      "endDate": "07-2015",
+      "summary": "UI development of a modern workflow web application for advertising TV platform. Achievements: •\tDevelop Front-end engine using Typescript/AngularJS/Bower/Gulp/Karma and Bootstrap/LESS/CSS3/HTML5.  •\tDevelop reuseable components over projects, write automation testing using Jasmine/Phantom/Resharper. •\tDevelop dashboard chart component using D3, Angular-nvd3. •\tMaintain and fixing bugs in fashion timely manner.",
+      "highlights": []
+    },
+    {
+      "company": "Microsoft",
+      "position": "UI Developer",
+      "website": "",
+      "startDate": "08-2015",
+      "endDate": "12-2015",
+      "summary": "•\tDevelop Marketplace Avatar – a place where Xbox user buy items •\tMaintain and fix bugs for Store.xbox.com where users buy games/add-ons •\tFix accessibility bugs using NVDA, WAT Used Tech: ASP.NET MVC, Ember, Ember-CLI, RequireJS, OneUI,  Bootstrap, jQuery, Sass, HTML5, Fiddler",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML5",
+        "CSS3",
+        "Javascript",
+        "Angular",
+        "Ember"
+      ]
+    }
+  ],
+  "languages": [],
+  "interests": [],
+  "references": []
+}
