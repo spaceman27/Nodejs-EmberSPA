@@ -1,0 +1,17 @@
+{
+  "name": "public",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Dao Nguyen <spaceman27@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/spaceman27/Pluralsight",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
