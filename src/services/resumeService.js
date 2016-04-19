@@ -1,3 +1,5 @@
+var http = require('http');
+
 var resumeService = function(){
 	// read json here
 	var getJson = function(callback){
