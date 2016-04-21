@@ -4,22 +4,14 @@ var resumeService = function(){
 	// read json here
 	var getJson = function(callback){
 		// call mongodb get result
-		var result = null;
-		var err = null;
-		
-		var options = {
-			host: '/',
-			path: './resume.json'
-		};
-		http.request(options, function(response){
-			var jsonStr='';
-			response.on('data', function(chunk){
-				jsonStr += chunk;
-			}).on(end, function(){
-				callback(null, jsonStr);
-			})
-		}).end();
-	}
+		// Define JSON File
+		var fs = require("fs");
+		// Get content from file
+		var contents = fs.readFileSync("resume.json");
+		// Define to JSON type
+		var jsonContent = JSON.parse(contents);
+		callback(jsonContent);
+	};
 
 	return {
 		getJson: getJson

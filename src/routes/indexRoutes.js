@@ -1,10 +1,9 @@
 var express = require('express');
 var indexRouter = express.Router();
 
-var indexController = require('../controllers/indexController')();
+var resumeService = require('../services/resumeService')();
+var indexController = require('../controllers/indexController')(resumeService);
 
-var router = function(){		
-	indexRouter.route('/').get(indexController.getTimeLine);
-}
+indexRouter.route('/').get(indexController.getTimeLine);	
 
-module.exports = router;
+module.exports = indexRouter;

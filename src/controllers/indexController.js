@@ -1,18 +1,14 @@
-var resumeService = require('../services/resumeService');
-var indexController = function(resumeService, req, res){
-	// get json resume from indexService
-	var resume;
-	console.log(resumeService)
-	
-
-	var getTimeLine = function(req, res){
-		resumeService.getJson(function(err, data){
-			resume = data;
+var indexController = function(resumeService){
+	// get json resume from indexService	
+	var getTimeLine = function(req, res){										
+		resumeService.getJson(function(data){
 			console.log(data);
-			res.render('index', {user: ['Dao Nguyen']});
+			res.render('index', data);
 		});
 	}
-	var getChart = function(req, res){}
+	var getChart = function(req, res){
+
+	};
 	return {
 		getTimeLine: getTimeLine,
 		getChart: getChart
