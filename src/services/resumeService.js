@@ -9,17 +9,20 @@ var resumeService = function(){
 		
 		var options = {
 			host: '/',
-			path: 'resume.json'
+			path: './resume.json'
 		};
 		http.request(options, function(response){
 			var jsonStr='';
 			response.on('data', function(chunk){
 				jsonStr += chunk;
 			}).on(end, function(){
-				console.log(str);
 				callback(null, jsonStr);
 			})
 		}).end();
+	}
+
+	return {
+		getJson: getJson
 	}
 }
 module.exports = resumeService;

@@ -3,9 +3,8 @@ var indexRouter = express.Router();
 
 var indexController = require('../controllers/indexController')();
 
-var router = function(){
-	// indexRouter.use(function(req, res){
-		
-	// })
-	indexRouter.route('/').get(indexController);
+var router = function(){		
+	indexRouter.route('/').get(indexController.getTimeLine);
 }
+
+module.exports = router;
