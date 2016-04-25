@@ -1,0 +1,1 @@
+var resumeJsonRequestUrl = "https://api.linkedin.com/v1/people/~:(id,formatted-name,headline,picture-url,email-address,phone-numbers,summary,main-address,public-profile-url,primary-twitter-account,positions,projects,volunteer,educations,certifications,honors-awards,publications,skills,languages,interests,recommendations-received)?format=json&oauth2_access_token=";

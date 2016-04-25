@@ -1,86 +1,486 @@
 {
-  "basics": {
-    "name": "Dao Nguyen",
-    "label": "Web Developer",
-    "picture": "",
-    "email": "spaceman27@gmail.com",
-    "phone": "",
-    "website": "dao-portfolio.azure-websites.com",
-    "summary": "6 years of professional we development",
-    "location": {
-      "address": "Kirkland, WA",
-      "postalCode": "WA 98033",
-      "city": "Kirkland",
-      "countryCode": "US",
-      "region": "Washington"
-    },
-    "profiles": []
+  "educations":  {
+    "_total": 2,
+    "values":  [
+       {
+        "degree": "Master's degree",
+        "endDate":  {
+          "year": 2016
+        },
+        "fieldOfStudy": "Computer Science",
+        "grade":  {},
+        "id": 202184624,
+        "schoolName": "Maharishi University of Management",
+        "startDate":  {
+          "year": 2013
+        }
+      },
+       {
+        "degree": "Bachelor's degree",
+        "endDate":  {
+          "year": 2011
+        },
+        "fieldOfStudy": "Computer Science",
+        "grade":  {},
+        "id": 218696897,
+        "schoolName": "Ho Chi Minh of Open University"
+      }
+    ]
   },
-  "work": [
-    {
-      "company": "Sau Thang",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2009",
-      "endDate": "2011",
-      "summary": "Spearheaded educational software project from design to implementation.  Achievements: Primary architect for online English teaching program with pay-gate support; developed full-text search engine for bi-lingual sentence dictionary (English and Vietnamese) using Javascript, jQuery, HTML, CSS",
-      "highlights": []
-    },
-    {
-      "company": "i-Glocal",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2011",
-      "endDate": "2013",
-      "summary": "Developed key HR & Accountant components  including membership registration, profile management, search functionality using WebAPI, HTML5, CSS3, AngularJS, EF, LINQ, and Bootstrap •\tInnovated web application design to enable employee time-tracking via WCF web service.  •\tDeveloped comprehensive end-user and administrator interface to generate reports, send newsletters with better suggestion for user’s job search. •\tOptimized system performance by periodic code reviews, and automated UI Testing using Selenium, Unit Testing and NUnit",
-      "highlights": []
-    },
-    {
-      "company": "Microsoft",
-      "position": "SDE",
-      "website": "",
-      "startDate": "07-2014",
-      "endDate": "12-2014",
-      "summary": "Built UI for Change Request System with AngularJS, Bootstrap, D3, Kendo UI, bundling and minification in combination with Grunt to get the deployment in automation. ",
-      "highlights": []
-    },
-    {
-      "company": "AOL",
-      "position": "UI Developer",
-      "website": "",
-      "startDate": "03-2015",
-      "endDate": "07-2015",
-      "summary": "UI development of a modern workflow web application for advertising TV platform. Achievements: •\tDevelop Front-end engine using Typescript/AngularJS/Bower/Gulp/Karma and Bootstrap/LESS/CSS3/HTML5.  •\tDevelop reuseable components over projects, write automation testing using Jasmine/Phantom/Resharper. •\tDevelop dashboard chart component using D3, Angular-nvd3. •\tMaintain and fixing bugs in fashion timely manner.",
-      "highlights": []
-    },
-    {
-      "company": "Microsoft",
-      "position": "UI Developer",
-      "website": "",
-      "startDate": "08-2015",
-      "endDate": "12-2015",
-      "summary": "•\tDevelop Marketplace Avatar – a place where Xbox user buy items •\tMaintain and fix bugs for Store.xbox.com where users buy games/add-ons •\tFix accessibility bugs using NVDA, WAT Used Tech: ASP.NET MVC, Ember, Ember-CLI, RequireJS, OneUI,  Bootstrap, jQuery, Sass, HTML5, Fiddler",
-      "highlights": []
-    }
-  ],
-  "volunteer": [],
-  "education": [],
-  "awards": [],
-  "publications": [],
-  "skills": [
-    {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML5",
-        "CSS3",
-        "Javascript",
-        "Angular",
-        "Ember"
+  "emailAddress": "dao.thanh.nguyen@aol.com",
+  "formattedName": "Dao Nguyen",
+  "headline": "Software Development Engineer (contractor) at Microsoft - Master Data Services Team",
+  "id": "iEiBAfJ0yx",
+  "interests": "Meditation, Yoga, Cooking, Martial Art, Badminton, Fencing, Kendo, Rock Climbing",
+  "languages":  {
+    "_total": 2,
+    "values":  [
+       {
+        "id": 75,
+        "language":  {
+          "name": "English"
+        }
+      },
+       {
+        "id": 76,
+        "language":  {
+          "name": "Vietnamese"
+        }
+      }
+    ]
+  },
+  "mainAddress": "Kirkland, WA",
+  "phoneNumbers":  {
+    "_total": 1,
+    "values":  [
+       {
+        "phoneNumber": "515-708-7923",
+        "phoneType": "mobile"
+      }
+    ]
+  },
+  "pictureUrl": "https://media.licdn.com/mpr/mprx/0_T_Ic9xa2wFNB4os13GUe9pDidb-MsoI1_k0e9pDY9C6e5mpPD5RRZyMKFdtbJDo088ddJUP9XOgy",
+  "positions":  {
+    "_total": 7,
+    "values":  [
+       {
+        "company":  {
+          "id": 1035,
+          "industry": "Computer Software",
+          "name": "Microsoft - Master Data Services Team",
+          "size": "10001+",
+          "ticker": "MSFT",
+          "type": "Public Company"
+        },
+        "id": 752647627,
+        "isCurrent": true,
+        "location":  {
+          "name": "Redmond, WA"
+        },
+        "startDate":  {
+          "month": 1,
+          "year": 2016
+        },
+        "title": "SDE consultant"
+      },
+       {
+        "company":  {
+          "id": 1035,
+          "industry": "Computer Software",
+          "name": "Microsoft - XBox Team",
+          "size": "10001+",
+          "ticker": "MSFT",
+          "type": "Public Company"
+        },
+        "endDate":  {
+          "month": 12,
+          "year": 2015
+        },
+        "id": 694281886,
+        "isCurrent": false,
+        "location":  {
+          "name": "Redmond, Washington"
+        },
+        "startDate":  {
+          "month": 8,
+          "year": 2015
+        },
+        "summary": "•\tDevelop Marketplace Avatar – a place where Xbox user buy items\n•\tMaintain and fix bugs for Store.xbox.com where users buy games/add-ons\n•\tFix accessibility bugs using NVDA, WAT\nUsed Tech: ASP.NET MVC, Ember, Ember-CLI, RequireJS, OneUI, Bootstrap, jQuery, Sass, HTML5, Fiddler\n",
+        "title": "SDE consultant"
+      },
+       {
+        "company":  {
+          "id": 1258,
+          "industry": "Internet",
+          "name": "AOL",
+          "size": "1001-5000",
+          "ticker": "AOL",
+          "type": "Public Company"
+        },
+        "endDate":  {
+          "month": 7,
+          "year": 2015
+        },
+        "id": 643552247,
+        "isCurrent": false,
+        "location":  {
+          "country":  {
+            "code": "us",
+            "name": "United States"
+          },
+          "name": "Greater Seattle Area"
+        },
+        "startDate":  {
+          "month": 3,
+          "year": 2015
+        },
+        "summary": "UI development of a modern workflow web application for advertising TV platform.\nAchievements:\n•\tDevelop Front-end engine using Typescript/AngularJS/Bower/Gulp/Karma and Bootstrap/LESS/CSS3/HTML5. \n•\tDevelop reuseable components over projects, write automation testing using Jasmine/Phantom/Resharper.\n•\tDevelop dashboard chart component using D3, Angular-nvd3.\n•\tMaintain and fixing bugs in fashion timely manner.",
+        "title": "SDE consultant"
+      },
+       {
+        "company":  {
+          "id": 1035,
+          "industry": "Computer Software",
+          "name": "Microsoft - Service Transition Team",
+          "size": "10001+",
+          "ticker": "MSFT",
+          "type": "Public Company"
+        },
+        "endDate":  {
+          "month": 12,
+          "year": 2014
+        },
+        "id": 565909146,
+        "isCurrent": false,
+        "location":  {
+          "name": "Redmond, Washington"
+        },
+        "startDate":  {
+          "month": 7,
+          "year": 2014
+        },
+        "summary": "Built UI for Change Request System with AngularJS, Bootstrap, D3, Kendo UI, bundling and minification in combination with Grunt to get the deployment in automation. \n",
+        "title": "SDE consultant"
+      },
+       {
+        "company":  {
+          "name": "iGlocal Resource"
+        },
+        "endDate":  {
+          "month": 3,
+          "year": 2013
+        },
+        "id": 173111302,
+        "isCurrent": false,
+        "location":  {},
+        "startDate":  {
+          "month": 3,
+          "year": 2011
+        },
+        "summary": "Developed key HR & Accountant components including membership registration, profile management, search functionality using WebAPI, HTML5, CSS3, AngularJS, EF, LINQ, and Bootstrap\n•\tInnovated web application design to enable employee time-tracking via WCF web service. \n•\tDeveloped comprehensive end-user and administrator interface to generate reports, send newsletters with better suggestion for user’s job search.\n•\tOptimized system performance by periodic code reviews, and automated UI Testing using Selenium, Unit Testing and NUnit",
+        "title": "Web Developer"
+      },
+       {
+        "company":  {
+          "name": "SAUTHANG"
+        },
+        "endDate":  {
+          "month": 3,
+          "year": 2011
+        },
+        "id": 129480003,
+        "isCurrent": false,
+        "location":  {},
+        "startDate":  {
+          "month": 3,
+          "year": 2009
+        },
+        "summary": "Spearheaded educational software project from design to implementation. \nAchievements:\nPrimary architect for online English teaching program with pay-gate support; developed full-text search engine for bi-lingual sentence dictionary (English and Vietnamese) using Javascript, jQuery, HTML, CSS",
+        "title": "Web Developer"
+      },
+       {
+        "company":  {
+          "id": 1361021,
+          "industry": "Computer Software",
+          "name": "Fujinet"
+        },
+        "endDate":  {
+          "month": 3,
+          "year": 2008
+        },
+        "id": 129614718,
+        "isCurrent": false,
+        "location":  {},
+        "startDate":  {
+          "month": 10,
+          "year": 2007
+        },
+        "summary": "Managed technical support for busy user interface providing statistical reports and communicating technical requirements to data users. Coordinated routine system troubleshooting and resolved required upgrades within outlined deadlines. \nAchievements:\n•\tWrote blueprint test plan and specifications for system features\n•\tDeveloped, tests, modifications, and maintained advanced Crystal Reports connected to various SQL data sources.",
+        "title": "Software Developer"
+      }
+    ]
+  },
+  "projects":  {
+    "_total": 4,
+    "values":  [
+       {
+        "description": "Designed and developed Big Data project to predict events based on occurrence of certain events, Crystal Ball.\nImplemented Pairs and Stripes algorithms to compute relative frequencies for running on a distribution system.\n- Setup for each server (using virtual machine)\n\nTechnologies used: Java (org.apache.hadoop), Hadoop, Eclipse using HDinsight, Hortonworks sandbox, Linux.",
+        "id": 71,
+        "name": "WordCount on Hadoop"
+      },
+       {
+        "description": "- In the project, I was using Standard JSF Tag, Java Beans, EL, Message Bundle, Ajax, Custom components, Custom Validator, Custom Conversion.\n- Forum has a master page, Signup Page, Login Page, crud operation on Category/Topic, New Article",
+        "id": 73,
+        "name": "Implement Forum using JSF"
+      },
+       {
+        "description": "Utilized diverse design patterns to develop a framework for a financial company including Command, Factory, Observer, Façade, Template, Strategy, Functor and Predicator. Drew the Classes and Sequencer UML, used Java to implement the framework, and applied the framework to implement a simple bank system.",
+        "id": 343,
+        "name": "Financial Company Framework"
+      },
+       {
+        "description": "Built interactive portfolio from crash use Node/Express/MongoDB in Backend, Ember/D3/SASS in client side\nComponents: odata, oAuth, Breeze\nTool: VS Team Services, GitHub, Gulp",
+        "id": 991753566,
+        "name": "NodeCrash",
+        "url": "https://github.com/spaceman27/Pluralsight"
+      }
+    ]
+  },
+  "publicProfileUrl": "https://www.linkedin.com/in/daothanhnguyen",
+  "recommendationsReceived":  {
+    "_total": 0
+  },
+  "skills":  {
+    "_total": 34,
+    "values":  [
+       {
+        "id": 41,
+        "skill":  {
+          "name": "Node.js"
+        }
+      },
+       {
+        "id": 42,
+        "skill":  {
+          "name": "Express.js"
+        }
+      },
+       {
+        "id": 43,
+        "skill":  {
+          "name": "Ember.js"
+        }
+      },
+       {
+        "id": 44,
+        "skill":  {
+          "name": "JavaScript"
+        }
+      },
+       {
+        "id": 45,
+        "skill":  {
+          "name": "AngularJS"
+        }
+      },
+       {
+        "id": 46,
+        "skill":  {
+          "name": "D3"
+        }
+      },
+       {
+        "id": 47,
+        "skill":  {
+          "name": "Design Patterns"
+        }
+      },
+       {
+        "id": 48,
+        "skill":  {
+          "name": "Hadoop"
+        }
+      },
+       {
+        "id": 49,
+        "skill":  {
+          "name": "ASP.NET MVC"
+        }
+      },
+       {
+        "id": 50,
+        "skill":  {
+          "name": "C#"
+        }
+      },
+       {
+        "id": 51,
+        "skill":  {
+          "name": "Entity Framework"
+        }
+      },
+       {
+        "id": 52,
+        "skill":  {
+          "name": "CSS3"
+        }
+      },
+       {
+        "id": 53,
+        "skill":  {
+          "name": "AJAX"
+        }
+      },
+       {
+        "id": 54,
+        "skill":  {
+          "name": "jQuery"
+        }
+      },
+       {
+        "id": 55,
+        "skill":  {
+          "name": "MySQL"
+        }
+      },
+       {
+        "id": 56,
+        "skill":  {
+          "name": "Java"
+        }
+      },
+       {
+        "id": 57,
+        "skill":  {
+          "name": "CSS"
+        }
+      },
+       {
+        "id": 58,
+        "skill":  {
+          "name": "HTML"
+        }
+      },
+       {
+        "id": 59,
+        "skill":  {
+          "name": "Big Data"
+        }
+      },
+       {
+        "id": 60,
+        "skill":  {
+          "name": "XML"
+        }
+      },
+       {
+        "id": 61,
+        "skill":  {
+          "name": "Software Engineering"
+        }
+      },
+       {
+        "id": 62,
+        "skill":  {
+          "name": "JSF"
+        }
+      },
+       {
+        "id": 63,
+        "skill":  {
+          "name": "Algorithm Design"
+        }
+      },
+       {
+        "id": 64,
+        "skill":  {
+          "name": "JSTL"
+        }
+      },
+       {
+        "id": 65,
+        "skill":  {
+          "name": "OOP"
+        }
+      },
+       {
+        "id": 66,
+        "skill":  {
+          "name": "SQL"
+        }
+      },
+       {
+        "id": 67,
+        "skill":  {
+          "name": "SQL Server"
+        }
+      },
+       {
+        "id": 68,
+        "skill":  {
+          "name": "UML"
+        }
+      },
+       {
+        "id": 69,
+        "skill":  {
+          "name": "WCF"
+        }
+      },
+       {
+        "id": 70,
+        "skill":  {
+          "name": "ASP.NET"
+        }
+      },
+       {
+        "id": 71,
+        "skill":  {
+          "name": "WEBAPI"
+        }
+      },
+       {
+        "id": 72,
+        "skill":  {
+          "name": "Bootstrap"
+        }
+      },
+       {
+        "id": 73,
+        "skill":  {
+          "name": "Web Services"
+        }
+      },
+       {
+        "id": 74,
+        "skill":  {
+          "name": ".NET"
+        }
+      }
+    ]
+  },
+  "summary": "Languages: JavaScript, C#, T-SQL\n.NET: ASP.NET MVC, WEB API, WCF, REST, JSON, OWIN, XML, X-PATH, ADO.NET, EF, ODATA, (P)LINQ, TPL, SignalR\nWeb: Node/Express/Ember, AngularJS/Typescript, Knockout, D3, Bootstrap/HTML5/CSS3/LESS/SASS, Responsive Design, jQuery, YeoMan, Bower/NPM, Breeze, TypeKit, KendoUI, AngularNVD3, Angular Material UI\nTool: Web Workbench, VS Coded UI Test, JIRA, Teamcity/Autopilot, Resharper, TFS/SVN/Git/Github, Perfmon, JSperf, FXCOP, SSEPTIC, Thread Modeling, CodeFlow, Chocolatey, Slack\nAutomation: Gulp/ Karma/Protractor/ Selenium /Jasmine/Phantom, NUnit\nJava: JSP, Servlet, JSF, Swing, Spring, JPA, EJB (learn in master degree)\nBig Data​: Hadoop, HDInsight, Hive, Pig, HBase, Sqoop (learn in master degree)\nDatabases: MongoDb, MS SQL, MYSQL\nMethodologies: Scrum, Kanban, RUP\nOO Design: OO Patterns and Principles\nParallel Programming: OpenMP, Java Concurrency (learn in master degree)",
+  "volunteer":  {
+    "causes":  {
+      "_total": 5,
+      "values":  [
+         {
+          "name": "education"
+        },
+         {
+          "name": "environment"
+        },
+         {
+          "name": "health"
+        },
+         {
+          "name": "scienceAndTechnology"
+        },
+         {
+          "name": "Spiritual Values"
+        }
       ]
-    }
-  ],
-  "languages": [],
-  "interests": [],
-  "references": []
+    },
+    "opportunities":  {}
+  }
 }
