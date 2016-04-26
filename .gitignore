@@ -54,5 +54,5 @@ Temporary Items
 # Generated Directory
 node_modules/
 bower_components/
-public/lib/
+clients/lib/
 npm-debug.log
