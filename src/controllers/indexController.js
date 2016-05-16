@@ -3,7 +3,7 @@ var indexController = function(resumeService){
 	var getTimeLine = function(req, res){										
 		resumeService.getJson(function(data){
 			console.log(data);
-			res.render('index', data);
+			res.render('../../clients/app/templates/application', data);
 		});
 	}
 	var getChart = function(req, res){
