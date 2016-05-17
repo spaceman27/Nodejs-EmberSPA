@@ -1,16 +1,33 @@
-{{formattedName}} <img src="" />
+<link href="bootstrap.css" />
+
+<p>
+	<div>
+	<img src="{{pictureUrl}}" />
+	</div>
+	<div>
+	<a class="text-header">{{formattedName}}</a>
+	<a class="headline">{{headline}}</a>
+	</div>	
+
+	Contact me:
+	Email: {{emailAddress}}
+	Mobile: {{phoneNumbers.values}}
+</p>
 <br>
-email: {{basics.email}}
+<input type="button" class="btn" value="Import From Linkedin"></input>
+
 
 <p>
 <input type=radio name='interactive' /> Interactive Analytic 
 <input type=radio name='general' /> General Analytic
 </p>
-Work Time Line:
-<div><chart type="timeline" data="" /></div>
 
+Work Time Line:
+<div>
+<chart type="timeline" data="" />
+</div>
 
 <br><br><br>
 This will have all portfolio in single page
 
-DAo nguyen - test node routing to ember template
+<script src="bootstrap.js">
