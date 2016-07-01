@@ -35,3 +35,5 @@ Using Templates.
 defined here are resolved from the modules defined in app/routes/.
 • app/app.js – This file is the main entry point of your application and
 contains the configuration that applies to your Ember.js application.
+
+Semantic UI 2+, added theme, and build toolsa
