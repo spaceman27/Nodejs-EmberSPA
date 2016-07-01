@@ -13,5 +13,8 @@
     "client-oauth2": "^2.2.0",
     "ember-cli": "^2.5.0",
     "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "semantic-ui-ember": "1.0.0"
   }
 }

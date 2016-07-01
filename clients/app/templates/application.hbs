@@ -1,33 +1,44 @@
-<link href="bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" class="ui" href="semantic-ui/dist/semantic.min.css" />
+
+<div class="container">
+
+
+<!--button class="btn btn-primary">Import From Linkedin</input-->
+
+<button class="ui primary button">
+  Import From Linkedin
+</button>
 
 <p>
 	<div>
-	<img src="{{pictureUrl}}" />
+		<img src="{{pictureUrl}}" />
 	</div>
-	<div>
-	<a class="text-header">{{formattedName}}</a>
-	<a class="headline">{{headline}}</a>
-	</div>	
-
-	Contact me:
-	Email: {{emailAddress}}
-	Mobile: {{phoneNumbers.values}}
+	<div class="profile">
+		<a class="text-header">{{formattedName}}</a>
+		<a class="headline">{{headline}}</a>
+	</div>
+	<div class="contact">
+		Contact me:
+		Email: {{emailAddress}}
+		Mobile: {{phoneNumbers.values.0.phoneNumber}}
+	</div>
 </p>
-<br>
-<input type="button" class="btn" value="Import From Linkedin"></input>
-
 
 <p>
-<input type=radio name='interactive' /> Interactive Analytic 
-<input type=radio name='general' /> General Analytic
+	<input type=radio name='interactive' /> Interactive Analytic 
+	<input type=radio name='general' /> General Analytic
 </p>
 
 Work Time Line:
 <div>
-<chart type="timeline" data="" />
+	<chart type="timeline" data="" />
 </div>
 
 <br><br><br>
 This will have all portfolio in single page
 
-<script src="bootstrap.js">
+</div>
+
+<script src="bootstrap/dist/js/bootstrap.js" />
+<script src="semantic-ui/dist/semantic.min.js" />

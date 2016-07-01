@@ -3,7 +3,8 @@ var app = express();
 
 var port = 3000;
 
-app.use(express.static('public'));
+/* Serving static files in Express */
+app.use(express.static('clients/bower_components'));
 
 /* Set HandleBars template engine */
 app.set('views', './src/views');

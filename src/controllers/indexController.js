@@ -3,6 +3,7 @@ var indexController = function(resumeService){
 	var getTimeLine = function(req, res){										
 		resumeService.getJson(function(data){
 			console.log(data);
+			//console.log(data.phoneNumbers.values[0].phoneNumber);
 			res.render('../../clients/app/templates/application', data);
 		});
 	}
